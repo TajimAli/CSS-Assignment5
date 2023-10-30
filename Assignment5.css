@@ -1,0 +1,125 @@
+body {
+    background-color: yellow;
+}
+
+.hh1 {
+    text-align: center;
+}
+
+.container {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box1 {
+    background-color: rgb(75, 75, 75);
+    height: 120px;
+    width: 120px;
+    animation: box1 3s linear infinite;
+}
+
+@keyframes box1 {
+    100% {
+        transform: skewX(20deg);
+    }
+
+    50% {
+        transform: skewY(-20deg);
+    }
+}
+
+.container2 {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box2 {
+    background-color: rgb(105, 54, 156);
+    width: 120px;
+    height: 120px;
+    animation: box2 3s linear infinite;
+}
+
+@keyframes box2 {
+    100% {
+        transform: skewY(15deg);
+    }
+
+    50% {
+        transform: skewX(-15deg);
+    }
+}
+
+.container3 {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box3 {
+    background-color: rgb(92, 75, 109);
+    width: 120px;
+    height: 120px;
+    animation: box3 3s linear infinite;
+}
+
+@keyframes box3 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container4 {
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.box4 {
+    background-color: rgb(122, 55, 189);
+    border: 3px solid rgb(105, 54, 156);
+    width: 120px;
+    height: 120px;
+    animation: box4 3s linear infinite;
+}
+
+@keyframes box4 {
+    100% {
+        transform: scaleY(0.6);
+    }
+}
+
+.box5 {
+    background-color: rgb(206, 44, 44);
+    border: 3px solid brown;
+    width: 120px;
+    height: 120px;
+    animation: box5 3s linear infinite;
+}
+
+@keyframes box5 {
+    100% {
+        transform: scaleX(0.4);
+    }
+}
+
+.box6 {
+    background-color: rgb(32, 224, 32);
+    border: 3px solid green;
+    width: 120px;
+    height: 120px;
+    animation: box6 3s linear infinite;
+}
+
+@keyframes box6 {
+    100% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(-45deg);
+    }
+}
+
+h1 {
+    color: rgb(70, 9, 9);
+    text-align: center;
+}
